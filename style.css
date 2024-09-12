@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(196deg, rgba(131,58,180,1) 18%, rgba(178,134,215,1) 58%, rgba(243,173,75,1) 99%);    
+    font-family: poppins;
+}
+
+.background {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 97.75vh;
+}
+
+.text {
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.loginbox {
+    background-image: url("background.jpg");
+    width: 735px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #00000033;
+}
+
+h2 {
+    font-size: 28px;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.inputbox input {
+    width: 75%;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    outline: none;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.158);
+    font-family: poppins;
+}
+
+::placeholder {
+    color: white;
+}
+
+.inputbox input:focus {
+    border-color: #67519d;
+}
+
+button {
+    width: 17%;
+    height: 31px;
+    justify-content: center;
+    font-weight: 550;
+    display: flex;
+    margin: 20px auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: rgba(131,58,180,1);
+    background-color: rgba(243,173,75,1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background: #67519d;
+    color:  rgba(243,173,75,1);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 77px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10.5px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.forgot {
+    color: white;
+}
+
+.register {
+    color: white;
+}
+
+.option2 {
+    margin: 79px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10.5px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
