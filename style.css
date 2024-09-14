@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body {
-    background: rgb(131,58,180);
-    background: linear-gradient(196deg, rgba(131,58,180,1) 18%, rgba(178,134,215,1) 58%, rgba(243,173,75,1) 99%);    
-    font-family: poppins;
+    background: rgb(7,27,44);
+    background: linear-gradient(14deg, rgba(7,27,44,1) 4%, rgba(26,63,75,1) 49%, rgba(53,104,117,1) 93%);    font-family: poppins;
 }
 
 .background {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 97.75vh;
+   height: 97.8vh;
 }
 
 .text {
@@ -23,9 +22,9 @@ body {
 }
 
 .loginbox {
-    background-image: url("background.jpg");
+    background-image: url("bg.jpg");
     width: 735px;
-    height: 500px;
+    height: 490px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #00000033;
 }
@@ -62,12 +61,12 @@ h2 {
 }
 
 .inputbox input:focus {
-    border-color: #67519d;
+    border-color: rgb(31, 155, 177);
 }
 
 button {
-    width: 17%;
-    height: 31px;
+    width: 15%;
+    height: 35px;
     justify-content: center;
     font-weight: 550;
     display: flex;
@@ -77,15 +76,16 @@ button {
     border: none;
     outline: none;
     border-radius: 2px;
-    color: rgba(131,58,180,1);
-    background-color: rgba(243,173,75,1);
+    color: white;
+    background-color: rgb(40, 97, 112);
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-    background: #67519d;
-    color:  rgba(243,173,75,1);
+    background: rgba(58,123,143,1);
+    color:  whitesmoke;
+    box-shadow: 5px 5px 10px #00000033;
 }
 
 .options {
